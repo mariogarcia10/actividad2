@@ -9,6 +9,20 @@
             <x-input-error :messages="$errors->get('name')" class="mt-2" />
         </div>
 
+        <!-- Surnames -->
+        <div class="mt-4">
+            <x-input-label for="surnames" :value="__('views.register.label_surnames')" />
+            <x-text-input id="surnames" class="block mt-1 w-full" type="text" name="surnames" :value="old('surnames')" required autocomplete="surnames" />
+            <x-input-error :messages="$errors->get('surnames')" class="mt-2" />
+        </div>
+
+        <!-- Age -->
+        <div class="mt-4">
+            <x-input-label for="age" :value="__('views.register.label_age')" />
+            <x-text-input id="age" class="block mt-1 w-full" type="text" name="age" :value="old('age')" required autocomplete="age" />
+            <x-input-error :messages="$errors->get('age')" class="mt-2" />
+        </div>
+
         <!-- Email Address -->
         <div class="mt-4">
             <x-input-label for="email" :value="__('views.register.label_email')" />

@@ -22,12 +22,14 @@ return [
     'profile.button_delete_account' => 'Delete Account',
     'profile.button_resend_verification' => 'Click here to re-send the verification email.',
     'profile.button_save' => 'Save',
+    'profile.label_age' => 'Age',
     'profile.label_confirm_password' => 'Confirm Password',
     'profile.label_current_password' => 'Current Password',
     'profile.label_email' => 'Email',
     'profile.label_name' => 'Name',
     'profile.label_new_password' => 'New Password',
     'profile.label_password' => 'Password',
+    'profile.label_surnames' => 'Surnames',
     'profile.text_deletion_warning' => 'Once your account is deleted, all of its resources and data will be permanently deleted. Before deleting your account, please download any data or information that you wish to retain.',
     'profile.text_enter_password' => 'Once your account is deleted, all of its resources and data will be permanently deleted. Please enter your password to confirm you would like to permanently delete your account.',
     'profile.text_long_password' => 'Ensure your account is using a long, random password to stay secure.',
@@ -43,10 +45,12 @@ return [
 
     // Register page
     'register.button_register' => 'Register',
+    'register.label_age' => 'Age',
     'register.label_confirm_password' => 'Confirm Password',
     'register.label_email' => 'Email',
     'register.label_name' => 'Name',
     'register.label_password' => 'Password',
+    'register.label_surnames' => 'Surnames',
     'register.link_already_registered' => 'Already registered?',
 
     // Verify email page

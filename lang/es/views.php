@@ -22,12 +22,14 @@ return [
     'profile.button_delete_account' => 'Eliminar cuenta',
     'profile.button_resend_verification' => 'Pincha aquí para reenviar el correo de verificación.',
     'profile.button_save' => 'Guardar',
+    'profile.label_age' => 'Edad',
     'profile.label_confirm_password' => 'Repita la nueva contraseña',
     'profile.label_current_password' => 'Contraseña actual',
     'profile.label_email' => 'Correo electrónico',
     'profile.label_name' => 'Nombre',
     'profile.label_new_password' => 'Nueva contraseña',
     'profile.label_password' => 'Contraseña',
+    'profile.label_surnames' => 'Apellidos',
     'profile.text_deletion_warning' => 'Si elimina su cuenta, todos sus datos serán borrados de manera permanente. Por favor, guarde toda la información que desee conservar antes de eliminar la cuenta.',
     'profile.text_enter_password' => 'Si elimina su cuenta, todos sus datos serán borrados de manera permanente. Por favor, introduzca su contraseña para confirmar que desea eliminar su cuenta de manera permanente.',
     'profile.text_long_password' => 'Para mayor seguridad, asegúrese de que usa una contraseña larga y aleatoria.',
@@ -43,10 +45,12 @@ return [
 
     // Pantalla de registro - Register
     'register.button_register' => 'Registrarse',
+    'register.label_age' => 'Edad',
     'register.label_confirm_password' => 'Repita la contraseña',
     'register.label_email' => 'Correo electrónico',
     'register.label_name' => 'Nombre',
     'register.label_password' => 'Contraseña',
+    'register.label_surnames' => 'Apellidos',
     'register.link_already_registered' => '¿Ya está registrado?',
 
     // Pantalla de verificación de correo electrónico - Verify email

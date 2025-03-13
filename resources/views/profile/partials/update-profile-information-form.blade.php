@@ -24,6 +24,18 @@
         </div>
 
         <div>
+            <x-input-label for="surnames" :value="__('views.profile.label_surnames')" />
+            <x-text-input id="surnames" name="surnames" type="text" class="mt-1 block w-full" :value="old('surnames', $user->surnames)" required autocomplete="surnames" />
+            <x-input-error class="mt-2" :messages="$errors->get('surnames')" />
+        </div>
+
+        <div>
+            <x-input-label for="age" :value="__('views.profile.label_age')" />
+            <x-text-input id="age" name="age" type="text" class="mt-1 block w-full" :value="old('age', $user->age)" required autocomplete="age" />
+            <x-input-error class="mt-2" :messages="$errors->get('age')" />
+        </div>
+
+        <div>
             <x-input-label for="email" :value="__('views.profile.label_email')" />
             <x-text-input id="email" name="email" type="email" class="mt-1 block w-full" :value="old('email', $user->email)" required autocomplete="username" />
             <x-input-error class="mt-2" :messages="$errors->get('email')" />
