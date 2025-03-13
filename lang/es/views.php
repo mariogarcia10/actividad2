@@ -6,9 +6,9 @@ return [
     'dashboard.text_logged_in' => '¡Ha iniciado sesión!',
 
     // Pantalla de contraseña olvidada - Forgot password
-    'forgot_password.button_send_link' => 'Enviar link',
+    'forgot_password.button_send_link' => 'Enviar enlace',
     'forgot_password.label_email' => 'Correo electrónico',
-    'forgot_password.text_forgot_password' => '¿Ha olvidado su contraseña? No hay problema. Indíquenos su correo electrónico y le mandaremos un link que le permitirá crear una nueva contraseña.',
+    'forgot_password.text_forgot_password' => '¿Ha olvidado su contraseña? No hay problema. Indíquenos su correo electrónico y le mandaremos un enlace que le permitirá crear una nueva contraseña.',
 
     // Pantalla de inicio de sesión - Login
     'login.button_login' => 'Iniciar sesión',
@@ -34,7 +34,7 @@ return [
     'profile.text_saved' => 'Guardado.',
     'profile.text_unverified_email' => 'Su correo electrónico aún no ha sido confirmado.',
     'profile.text_update_information' => 'Cambie los datos de su cuenta.',
-    'profile.text_verification_sent' => 'Se ha enviado un nuevo link de verificación a su correo electrónico.',
+    'profile.text_verification_sent' => 'Se ha enviado un nuevo enlace de verificación a su correo electrónico.',
     'profile.title_delete_account' => 'Eliminar cuenta',
     'profile.title_delete_confirmation' => '¿Seguro que desea eliminar su cuenta?',
     'profile.title_profile' => 'Cuenta',
@@ -48,6 +48,12 @@ return [
     'register.label_name' => 'Nombre',
     'register.label_password' => 'Contraseña',
     'register.link_already_registered' => '¿Ya está registrado?',
+
+    // Pantalla de verificación de correo electrónico - Verify email
+    'verify_email.button_logout' => 'Cerrar sesión',
+    'verify_email.button_resend_verification' => 'Reenviar correo de verificación',
+    'verify_email.text_new_link' => 'Se ha enviado un nuevo enlace de verificación a la dirección de correo electrónico que indicó al registrarse.',
+    'verify_email.text_verify_email' => '¡Gracias por registrarse! Antes de empezar, ¿podría verificar su dirección de correo electrónico pinchando en el enlace que le hemos enviado a su correo? Si no ha recibido ningún mensaje, le podemos mandar otro.',
 
     // Pantalla de bienvenida - Welcome
     'welcome.button_login' => 'Iniciar sesión',

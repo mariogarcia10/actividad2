@@ -49,6 +49,12 @@ return [
     'register.label_password' => 'Password',
     'register.link_already_registered' => 'Already registered?',
 
+    // Verify email page
+    'verify_email.button_logout' => 'Log Out',
+    'verify_email.button_resend_verification' => 'Resend Verification Email',
+    'verify_email.text_new_link' => 'A new verification link has been sent to the email address you provided during registration.',
+    'verify_email.text_verify_email' => 'Thanks for signing up! Before getting started, could you verify your email address by clicking on the link we just emailed to you? If you didn\'t receive the email, we will gladly send you another.',
+
     // Home - Welcome page
     'welcome.button_login' => 'Log in',
     'welcome.button_register' => 'Register',
