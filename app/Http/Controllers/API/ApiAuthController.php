@@ -35,4 +35,13 @@ class ApiAuthController extends Controller
         ]);
     }
 
+    public function checkToken(Request $request)
+    {
+        return response()->json([
+            'status' => 200,
+            'message'=> 'Efectivamente, tiene un token válido',
+            'data'=> null
+        ]);
+    }
+
 }

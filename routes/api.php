@@ -9,3 +9,6 @@ Route::get('/user', function (Request $request) {
 })->middleware('auth:sanctum');
 
 Route::post('/login',[ApiAuthController::class,'login']);
+
+Route::get('/check-token',[ApiAuthController::class,'checkToken'])
+    ->middleware('auth:sanctum');
