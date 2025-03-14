@@ -4,6 +4,7 @@ return [
 
     // Dashboard page
     'dashboard.text_logged_in' => 'You\'re logged in!',
+    'dashboard.title_dashboard' => 'Dashboard',
 
     // Forgot password page
     'forgot_password.button_send_link' => 'Email Password Reset Link',
@@ -53,6 +54,9 @@ return [
     'register.label_surnames' => 'Surnames',
     'register.link_already_registered' => 'Already registered?',
 
+    // User listing page
+    'user_listing.title_user_listing' => 'User Listing',
+
     // Verify email page
     'verify_email.button_logout' => 'Log Out',
     'verify_email.button_resend_verification' => 'Resend Verification Email',
@@ -60,6 +64,7 @@ return [
     'verify_email.text_verify_email' => 'Thanks for signing up! Before getting started, could you verify your email address by clicking on the link we just emailed to you? If you didn\'t receive the email, we will gladly send you another.',
 
     // Home - Welcome page
+    'welcome.button_dashboard' => 'Dashboard',
     'welcome.button_login' => 'Log in',
     'welcome.button_register' => 'Register',
 

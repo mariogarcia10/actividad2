@@ -48,4 +48,9 @@ class User extends Authenticatable implements MustVerifyEmail
             'password' => 'hashed',
         ];
     }
+
+    public function hasRole($role)
+    {
+        return $this->role == $role;
+    }
 }

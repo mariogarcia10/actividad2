@@ -4,6 +4,7 @@ return [
 
     // Dashboard page
     'dashboard.text_logged_in' => '¡Ha iniciado sesión!',
+    'dashboard.title_dashboard' => 'Inicio',
 
     // Pantalla de contraseña olvidada - Forgot password
     'forgot_password.button_send_link' => 'Enviar enlace',
@@ -53,6 +54,9 @@ return [
     'register.label_surnames' => 'Apellidos',
     'register.link_already_registered' => '¿Ya está registrado?',
 
+    // Pantalla de listado de usuarios - User listing
+    'user_listing.title_user_listing' => 'Listado de usuarios',
+
     // Pantalla de verificación de correo electrónico - Verify email
     'verify_email.button_logout' => 'Cerrar sesión',
     'verify_email.button_resend_verification' => 'Reenviar correo de verificación',
@@ -60,6 +64,7 @@ return [
     'verify_email.text_verify_email' => '¡Gracias por registrarse! Antes de empezar, ¿podría verificar su dirección de correo electrónico pinchando en el enlace que le hemos enviado a su correo? Si no ha recibido ningún mensaje, le podemos mandar otro.',
 
     // Pantalla de bienvenida - Welcome
+    'welcome.button_dashboard' => 'Inicio',
     'welcome.button_login' => 'Iniciar sesión',
     'welcome.button_register' => 'Registrarse',
 
